@@ -26,8 +26,9 @@ input, mat-select{
     flex-direction: column;
 }
 .foodselection{
-    width: fit-content;padding: 10px;
-margin-left: 10px;
+    width: fit-content;
+    padding: 10px;
+
 }
 
 .userinput{
@@ -35,6 +36,15 @@ margin-left: 10px;
     padding: 5px;
 
     
+}
+.output{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
 }
 /* span{
     display: flex;
