@@ -1,0 +1,43 @@
+.example-form{
+margin-left: 25%;
+margin-top: 20px;
+border: 1px solid black;
+width: fit-content;
+padding: 70px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-content: center;}
+
+
+input, mat-select{
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+.example-full-width{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.mainform{
+    display: flex;
+    flex-direction: column;
+}
+.foodselection{
+    width: fit-content;padding: 10px;
+margin-left: 10px;
+}
+
+.userinput{
+    width: fit-content;
+    padding: 5px;
+
+    
+}
+/* span{
+    display: flex;
+    width: fit-content;
+    text-align: center;
+} */
