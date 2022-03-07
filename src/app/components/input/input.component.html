@@ -1,14 +1,16 @@
 
         <div class="example-form">
      <span>Kenyan shillings: <input class="userinput" type="number" class="userinput"  [(ngModel)]="money.amount"  >    </span>  
+     <div class="output">
             <p>{{money.amount * constant}} </p> 
+
             <select class="foodselection" (change)="onChange(selectedCurrency)" [(ngModel)]="selectedCurrency">
 
                 <option *ngFor="let food of foods" [value]="food.value">
                              {{food.value}}
                            </option>
-                        </select> 
-                        <p>you selected {{selectedCurrency}}</p>
+                        </select> </div>
+                        <p>you selected <b>{{selectedCurrency}}</b></p>
 </div>
 
  <!-- <select class="foodselection">
